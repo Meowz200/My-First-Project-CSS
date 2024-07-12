@@ -1,0 +1,399 @@
+@media (max-width: 1621px) {
+    .logo {
+        width: 50%;
+    }
+
+    .navBarButtons {
+        width: 60%;
+    }
+
+    .earlyAccessInput {
+        align-items: center;
+    }
+
+    .earlyAcessText h1 {
+        width: 34rem;
+    }
+
+    .fyloRedirect>a .greenArrow {
+        display: none;
+    }
+
+    .fyloArea {
+        width: 60%;
+    }
+
+    .main2 {
+        width: fit-content;
+    }
+
+    .main2>img {
+        transform: translateY(300px);
+    }
+
+    .main1>img {
+        transform: translatex(-30px);
+    }
+
+    .main1>img,
+    .main2>img {
+        width: 35%;
+        height: 25%;
+    }
+
+    .getStartedButton button {
+        width: 125%;
+        transform: translatex(-40px);
+    }
+
+    .earlyAccess button {
+        width: 650%;
+    }
+
+    .main1 {
+        flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+        width: fit-content;
+        text-align: center;
+    }
+
+    .main1>img {
+        width: 40%;
+        height: auto;
+    }
+
+    .maininputOptIn {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        height: fit-content;
+        gap: 2.5rem;
+    }
+
+    .mainInput {
+        padding: 5rem;
+        align-items: center;
+        row-gap: 2rem;
+    }
+
+    .navBarButtons {
+        gap: 2rem;
+    }
+
+    .main2 {
+        flex-direction: column-reverse;
+        width: fit-content;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main2>img {
+        transform: translateY(0px);
+    }
+
+    .fyloArea {
+        width: fit-content;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    .fyloArea h1 {
+        width: 1;
+    }
+
+    .fyloRedirect {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .fyloQuote {
+        padding: 5rem 3rem 3rem 3rem;
+    }
+
+    .fyloQuote p {
+        height: 80%;
+    }
+
+    .fyloQuoteProfile {
+        gap: 3rem;
+        margin-top: 1.5rem;
+    }
+
+    .earlyAccess {
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .earlyAcessText {
+        padding: 0;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .inputArea {
+        width: fit-content;
+        height: fit-content;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .earlyAccessInput {
+        width: fit-content;
+        align-items: center;
+        justify-content: start;
+        padding: 0;
+        gap: 2rem;
+    }
+
+    .earlyAccessInput>input {
+        margin: 0;
+    }
+
+    .earlyAccessInput>button {
+        margin: 0;
+    }
+
+    .earlyAccess button {
+        width: 100%;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 1rem;
+        padding: 1rem;
+        height: fit-content;
+        font-size: 1.2rem;
+    }
+
+    .leftFooter,
+    .centerLeftFooter,
+    .centerRightFooter,
+    .rightFooter {
+        width: 100%;
+        text-align: center;
+        height: 10rem;
+    }
+
+    .centerLeftFooter,
+    .centerRightFooter {
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .centerLeftFooter>a,
+    .centerRightFooter>a {
+        width: 12%;
+    }
+
+    .rightFooter {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .rightFooter div {
+        height: fit-content;
+        width: fit-content;
+    }
+}
+
+@media (max-width: 930px) {
+    .fyloQuote {
+        padding: 3rem 1rem 1rem 1rem;
+        width: 70%;
+    }
+
+    .leftFooter,
+    .centerLeftFooter,
+    .centerRightFooter {
+        align-items: start;
+        justify-content: space-around;
+        flex-direction: column;
+        gap: 2rem;
+        height: fit-content;
+        padding-top: 1rem;
+    }
+
+    .leftFooter {
+        flex-direction: column;
+        align-items: start;
+    }
+
+    .footer {
+        padding: 2rem;
+    }
+
+    .mainInput p {
+        text-align: left;
+    }
+
+    .fyloArea p {
+        text-align: left;
+    }
+
+    .main1>img,
+    .main2>img {
+        width: 70%;
+        height: auto;
+    }
+
+    .fyloArea a {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 715px) {
+    .navBarButtons {
+        width: 70%;
+    }
+
+    .logo {
+        width: 30%;
+        padding: 4rem 1rem 1rem 3rem;
+    }
+}
+
+@media (max-width: 640px) {
+
+    body {
+        min-height: 100svh;
+    }
+
+    .earlyAccessInput>input,
+    .earlyAccessInput>button {
+        width: 200%;
+    }
+
+    .fyloArea {
+        padding-left: 2rem;
+    }
+
+    .mainInput h1 {
+        font-size: 2.5rem;
+    }
+
+    .earlyAccess h1 {
+        font-size: 2.7rem;
+    }
+
+    .navBarButtons {
+        width: 75%;
+    }
+
+    .logo {
+        width: 25%;
+        padding: 4rem 1rem 1rem 1rem;
+    }
+
+    .navBarButtons {
+        width: 85%;
+    }
+
+    .logo {
+        width: 15%;
+        padding: 4rem 1rem 1rem 0rem;
+    }
+
+    .logo img {
+        width: 8rem;
+    }
+
+    .main1 {
+        width: fit-content;
+    }
+
+    .mainInput {
+        padding-left: 1rem;
+    }
+
+    .fyloArea {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .earlyAcessText>h1 {
+        width: 75%;
+    }
+
+    .fyloArea p {
+        width: 90%;
+    }
+
+    .navBarButtons {
+        width: 90%;
+    }
+
+    .logo {
+        width: 10%;
+        padding: 3rem 1rem 1rem 0rem;
+    }
+
+    .logo img {
+        width: 7rem;
+    }
+
+    .maininputOptIn button,
+    .maininputOptIn input {
+        width: 90%;
+    }
+
+    .maininputOptIn button {
+        transform: translatex(-5%);
+        width: 110%;
+    }
+
+    .maininput {
+        padding-left: -2rem;
+    }
+
+    .fyloArea>h1 {
+        font-size: 2.5rem;
+    }
+
+    .fyloArea:nth-child(3) {
+        font-size: 1.7rem;
+    }
+
+    .navBarButtons {
+        width: 90%;
+        gap: 1rem;
+    }
+
+    .logo {
+        width: 10%;
+        padding: 4.5rem 0rem 0rem 0rem;
+    }
+
+    .logo img {
+        width: 7rem;
+    }
+
+    .maininputOptIn button,
+    .maininputOptIn input {
+        width: 70%;
+    }
+
+    .maininputOptIn button {
+        transform: translatex(5%);
+        width: 90%;
+    }
+
+    .earlyAccessInput>input,
+    .earlyAccessInput>button {
+        width: 18rem;
+    }
+
+    .mainInput h1 {
+        width: 70%;
+        transform: translatex(-5%);
+    }
+}
